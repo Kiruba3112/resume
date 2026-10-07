@@ -1,427 +1,393 @@
 /* =========================================
-   PROFESSIONAL RESUME CSS
+PROFESSIONAL RESUME CSS
 ========================================= */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #e9edf2;
-    color: #222;
-    line-height: 1.5;
+font-family: Arial, Helvetica, sans-serif;
+background: #e9edf2;
+color: #222;
+line-height: 1.5;
 }
 
 /* =========================================
-   HEADER
+HEADER
 ========================================= */
 
 header {
-    background: #ffffff;
-    max-width: 900px;
-    margin: 35px auto 0;
-    padding: 35px 50px 25px;
-
-    border-bottom: 3px solid #1f4e79;
-
-    position: relative;
+background: #ffffff;
+max-width: 900px;
+margin: 35px auto 0;
+padding: 35px 50px 25px;
+border-bottom: 3px solid #1f4e79;
+position: relative;
 }
 
 header h1 {
-    font-size: 34px;
-    color: #1f4e79;
-    margin-bottom: 5px;
-    font-weight: 700;
+font-size: 34px;
+color: #1f4e79;
+margin-bottom: 5px;
+font-weight: 700;
 }
 
 header p {
-    font-size: 15px;
-    color: #555;
-    margin-bottom: 10px;
+font-size: 15px;
+color: #555;
+margin-bottom: 10px;
 }
 
 header a {
-    color: #1f4e79;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
+color: #1f4e79;
+text-decoration: none;
+font-size: 14px;
+font-weight: 600;
 }
 
 header a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 /* Profile Photo */
 
 header img {
-    position: absolute;
-
-    right: 50px;
-    top: 30px;
-
-    width: 105px;
-    height: 105px;
-
-    object-fit: cover;
-
-    border-radius: 50%;
-
-    border: 3px solid #1f4e79;
+position: absolute;
+right: 50px;
+top: 30px;
+width: 105px;
+height: 105px;
+object-fit: cover;
+border-radius: 50%;
+border: 3px solid #1f4e79;
 }
 
 /* =========================================
-   MAIN RESUME
+MAIN RESUME
 ========================================= */
 
 main {
-    max-width: 900px;
-    margin: 0 auto 35px;
-
-    background: #ffffff;
-
-    padding: 10px 50px 40px;
+max-width: 900px;
+margin: 0 auto 35px;
+background: #ffffff;
+padding: 10px 50px 40px;
 }
 
 /* =========================================
-   SECTIONS
+SECTIONS
 ========================================= */
 
 section {
-    margin-bottom: 24px;
+margin-bottom: 24px;
 }
 
 section h2 {
-    color: #1f4e79;
-
-    font-size: 17px;
-
-    text-transform: uppercase;
-
-    letter-spacing: 0.8px;
-
-    border-bottom: 1.5px solid #1f4e79;
-
-    padding-bottom: 5px;
-
-    margin-bottom: 12px;
+color: #1f4e79;
+font-size: 17px;
+text-transform: uppercase;
+letter-spacing: 0.8px;
+border-bottom: 1.5px solid #1f4e79;
+padding-bottom: 5px;
+margin-bottom: 12px;
 }
 
 section h3 {
-    color: #222;
-
-    font-size: 16px;
-
-    margin-bottom: 5px;
+color: #222;
+font-size: 16px;
+margin-bottom: 5px;
 }
 
 /* =========================================
-   TEXT
+TEXT
 ========================================= */
 
 section p {
-    font-size: 14px;
-
-    color: #444;
-
-    margin-bottom: 6px;
+font-size: 14px;
+color: #444;
+margin-bottom: 6px;
 }
 
 strong {
-    color: #222;
+color: #222;
 }
 
 /* =========================================
-   PROFILE
+PROFILE
 ========================================= */
 
 #profile p {
-    text-align: justify;
+text-align: justify;
 }
 
 /* =========================================
-   CONTACT
+CONTACT
 ========================================= */
 
 #contact {
-    margin-top: 10px;
+margin-top: 10px;
 }
 
 #contact h2 {
-    display: none;
+display: none;
 }
 
 #contact h3 {
-    font-size: 20px;
+font-size: 20px;
 }
 
 #contact p {
-    margin-bottom: 3px;
+margin-bottom: 3px;
 }
 
 #contact a {
-    color: #1f4e79;
-    text-decoration: none;
+color: #1f4e79;
+text-decoration: none;
+}
+
+#contact a:hover {
+text-decoration: underline;
 }
 
 /* =========================================
-   TECHNICAL SKILLS
+TECHNICAL SKILLS
 ========================================= */
 
 #skills p {
-    margin-bottom: 5px;
+margin-bottom: 5px;
 }
 
 #skills strong {
-    display: inline-block;
-
-    min-width: 125px;
-
-    color: #1f4e79;
+display: inline-block;
+min-width: 125px;
+color: #1f4e79;
 }
 
 /* =========================================
-   PROJECT
+PROJECT
 ========================================= */
 
 #project h3 {
-    font-size: 17px;
-
-    color: #222;
-
-    margin-bottom: 7px;
+font-size: 17px;
+color: #222;
+margin-bottom: 7px;
 }
 
 #project p {
-    margin-bottom: 6px;
+margin-bottom: 6px;
 }
 
 /* =========================================
-   EDUCATION
+EDUCATION
 ========================================= */
 
 #education h3 {
-    color: #222;
-
-    font-size: 16px;
+color: #222;
+font-size: 16px;
 }
 
 #education p {
-    margin-bottom: 3px;
+margin-bottom: 3px;
 }
 
 /* =========================================
-   ACHIEVEMENTS
+ACHIEVEMENTS
 ========================================= */
 
 ul {
-    margin-left: 20px;
+margin-left: 20px;
 }
 
 li {
-    font-size: 14px;
-
-    color: #444;
-
-    margin-bottom: 4px;
-
-    padding-left: 3px;
-}
-
-/* Remove custom symbols */
-li::before {
-    content: none;
+font-size: 14px;
+color: #444;
+margin-bottom: 4px;
+padding-left: 3px;
 }
 
 /* =========================================
-   INTERESTS
+INTERESTS
 ========================================= */
 
 #interests ul {
-    display: flex;
-
-    flex-wrap: wrap;
-
-    gap: 0;
+display: flex;
+flex-wrap: wrap;
+gap: 0;
 }
 
 #interests li {
-    margin-right: 25px;
-
-    list-style-type: disc;
+margin-right: 25px;
+list-style-type: disc;
 }
 
 /* =========================================
-   DECLARATION
+DECLARATION
 ========================================= */
 
 #declaration {
-    margin-top: 10px;
+margin-top: 10px;
 }
 
 #declaration p {
-    margin-bottom: 4px;
+margin-bottom: 4px;
 }
 
 /* =========================================
-   FOOTER
+FOOTER
 ========================================= */
 
 footer {
-    max-width: 900px;
-
-    margin: 0 auto 35px;
-
-    background: #ffffff;
-
-    border-top: 1px solid #ddd;
-
-    padding: 15px 50px;
-
-    text-align: center;
-
-    color: #777;
-
-    font-size: 12px;
+max-width: 900px;
+margin: 0 auto 35px;
+background: #ffffff;
+border-top: 1px solid #ddd;
+padding: 15px 50px;
+text-align: center;
+color: #777;
+font-size: 12px;
 }
 
 /* =========================================
-   HOVER - VERY SUBTLE
+HOVER - VERY SUBTLE
 ========================================= */
 
 section h2 {
-    transition: color 0.2s ease;
+transition: color 0.2s ease;
 }
 
 section h2:hover {
-    color: #163a5a;
+color: #163a5a;
 }
 
 /* =========================================
-   TABLET
+TABLET
 ========================================= */
 
 @media (max-width: 768px) {
 
-    header {
-        margin-top: 0;
+```
+header {
+    margin-top: 0;
+    padding: 30px 30px 25px;
+}
 
-        padding: 30px 30px 25px;
-    }
+header img {
+    right: 30px;
+}
 
-    header img {
-        right: 30px;
-    }
+main {
+    padding: 10px 30px 35px;
+}
 
-    main {
-        padding: 10px 30px 35px;
-    }
+footer {
+    padding: 15px 30px;
+}
+```
 
-    footer {
-        padding: 15px 30px;
-    }
 }
 
 /* =========================================
-   MOBILE
+MOBILE
 ========================================= */
 
 @media (max-width: 550px) {
 
-    body {
-        background: #ffffff;
-    }
+```
+body {
+    background: #ffffff;
+}
 
-    header {
-        padding: 25px 20px 20px;
+header {
+    padding: 25px 20px 20px;
+    text-align: left;
+}
 
-        text-align: left;
-    }
+header h1 {
+    font-size: 28px;
+    padding-right: 100px;
+}
 
-    header h1 {
-        font-size: 28px;
+header p {
+    font-size: 13px;
+    padding-right: 100px;
+}
 
-        padding-right: 100px;
-    }
+header img {
+    width: 80px;
+    height: 80px;
+    right: 20px;
+    top: 25px;
+}
 
-    header p {
-        font-size: 13px;
+main {
+    padding: 15px 20px 30px;
+}
 
-        padding-right: 100px;
-    }
+section {
+    margin-bottom: 20px;
+}
 
-    header img {
-        width: 80px;
-        height: 80px;
+section h2 {
+    font-size: 15px;
+}
 
-        right: 20px;
-        top: 25px;
-    }
+section p,
+li {
+    font-size: 13px;
+}
 
-    main {
-        padding: 15px 20px 30px;
-    }
+#skills strong {
+    min-width: 105px;
+}
 
-    section {
-        margin-bottom: 20px;
-    }
+footer {
+    margin-bottom: 0;
+    padding: 15px 20px;
+}
+```
 
-    section h2 {
-        font-size: 15px;
-    }
-
-    section p,
-    li {
-        font-size: 13px;
-    }
-
-    #skills strong {
-        min-width: 105px;
-    }
-
-    footer {
-        margin-bottom: 0;
-        padding: 15px 20px;
-    }
 }
 
 /* =========================================
-   PRINT / PDF RESUME
+PRINT / PDF RESUME
 ========================================= */
 
 @media print {
 
-    body {
-        background: white;
-    }
+```
+body {
+    background: white;
+}
 
-    header,
-    main,
-    footer {
-        max-width: 100%;
-        margin: 0;
-        box-shadow: none;
-    }
+header,
+main,
+footer {
+    max-width: 100%;
+    margin: 0;
+    box-shadow: none;
+}
 
-    header {
-        padding: 20px 35px 15px;
-    }
+header {
+    padding: 20px 35px 15px;
+}
 
-    main {
-        padding: 10px 35px 20px;
-    }
+main {
+    padding: 10px 35px 20px;
+}
 
-    footer {
-        display: none;
-    }
+footer {
+    display: none;
+}
 
-    section {
-        break-inside: avoid;
-    }
+section {
+    break-inside: avoid;
+}
 
-    header a {
-        color: #222;
-    }
+header a {
+    color: #222;
+}
+```
+
 }
